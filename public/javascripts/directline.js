@@ -1,11 +1,13 @@
+
+
 var botConnection = new BotChat.DirectLine({
     secret: "BKtMDrqs2Kc.cwA.tBg.kiYukVMCLcVySGzyDAt6FCJy_4gcK2EeHOY6JOjT26A"
 });
 
 BotChat.App({
     botConnection: botConnection,
-    user: { id: 'Jan Kowalski' },
-    bot: { id: 'botid' },
+    user: { id: 'new user' },
+    bot: { id: 'new bot' },
     resize: 'detect'
 }, document.getElementById("bot"));
 
